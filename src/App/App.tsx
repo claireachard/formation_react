@@ -8,14 +8,14 @@ function App() {
     <div className="App">
       Helloworld
       <hr/>
-      {/* <Button bgcolor="skyblue">
+      <Button bgcolor="skyblue">
         <img src="/img/ok.png" alt="ok"/>
       </Button>
       <Button bgcolor="skyblue">
         <img src="/img/cancel.png" alt="cancel"/>
         Cancel
-      </Button> */}
-      <Button>test</Button>
+      </Button>
+      <Button/>
 
     </div>
   );
