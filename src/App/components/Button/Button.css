@@ -14,6 +14,14 @@
     background-color: indianred;
 }
 
+.Button.primary {
+    background-color: chartreuse;
+}
+
+.Button.primary:hover {
+    background-color: rgb(173, 184, 163);
+}
+
 .Button img{
    max-height: 50px;
    width: 52px;

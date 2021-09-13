@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       Helloworld
       <hr/>
-      <Button bgcolor="skyblue">
+      <Button classColor="primary">
         <img src="/img/ok.png" alt="ok"/>
       </Button>
-      <Button bgcolor="skyblue">
+      <Button >
         <img src="/img/cancel.png" alt="cancel"/>
         Cancel
       </Button>
