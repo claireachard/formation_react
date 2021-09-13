@@ -1,3 +1,15 @@
 .Button {
-    
+    border-radius: 8px;
+    background-color: limegreen;
+    padding: 5 10px;
+    margin: 5px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+    box-shadow: 10px 10px 20px grey;
+}
+
+.Button:hover{
+    background-color: indianred;
 }

@@ -1,9 +1,10 @@
 import React from 'react'
 import './Button.css'
 
+//export default()=>{
 const Button=()=>{
     return (
-        <button className="button" >Benjamin</button>
+        <button className="Button" >Benjamin</button>
     );
 }
 
