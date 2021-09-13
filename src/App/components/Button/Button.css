@@ -14,6 +14,10 @@
     background-color: chartreuse;
 }
 
+.Button.clicked {
+    box-shadow: 5px 5px 20px grey;
+}
+
 .Button:hover {
     background-color: rgb(173, 184, 163);
     box-shadow: 15px 15px 15px grey;
