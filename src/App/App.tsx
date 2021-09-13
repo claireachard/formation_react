@@ -8,7 +8,13 @@ function App() {
     <div className="App">
       Helloworld
       <hr/>
-      <Button text="OK" bgcolor="skyblue"/>
+      <Button bgcolor="skyblue">
+        <img src="/img/ok.png" alt="ok"/>
+      </Button>
+      <Button bgcolor="skyblue">
+        <img src="/img/cancel.png" alt="cancel"/>
+        Cancel
+      </Button>
     </div>
   );
 }
