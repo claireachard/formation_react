@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       Helloworld
       <hr/>
-      <Button/>
+      <Button text="OK" bgcolor="skyblue"/>
     </div>
   );
 }

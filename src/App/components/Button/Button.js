@@ -2,9 +2,10 @@ import React from 'react'
 import './Button.css'
 
 //export default()=>{
-const Button=()=>{
+const Button=(props)=>{
+    console.log(props);
     return (
-        <button className="Button" >Benjamin</button>
+        <button className="Button" >{props.text}</button>
     );
 }
 
