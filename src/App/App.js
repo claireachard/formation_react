@@ -5,20 +5,25 @@ import Button from './components/Button/Button';
 
 class App extends React.Component {
 
-  counter=0
+  constructor(props){
+    super(props);
+    this.state={counter:0};
+  }
 
   render() {
     return (
       <div className="App">
-        Valeur du compteur: {this.counter}
+        Valeur du compteur: {this.state.counter}
 
-        <Button onClickEvent={() => {
-          this.counter--;
-          console.log(this.counter);
+        <Button onClickEvent={()=>{
+          // this.state.counter--;
+          this.setState({counter:this.state.counter-1})
+          console.log(this.state.counter);
         }}>soustraction</Button>
         <Button onClickEvent={()=>{
-          this.counter++;
-          console.log(this.counter);
+          // this.state.counter++;
+          this.setState({counter:this.state.counter+1})
+          console.log(this.state.counter);
         }}
         bgColor="chartreuse">addition</Button>
       </div>
